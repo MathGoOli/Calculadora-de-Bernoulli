@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora de bernoulli</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- jquerry -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="bg-dark">
+
+    <div class="margem h-100 d-flex align-items-center justify-content-center">
+
+  <div class="card" style="width: 25rem;">
+    <h1 class="text-center">Calculadora de bernoulli</h1>
+    <div class="card-body">
+    <!-- Variable l -->
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">L</span>
+  </div>
+  <input id="l" type="text" class="form-control" placeholder="l" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable Z1-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">Z1</span>
+</div>
+<input id="z1" type="text" class="form-control" placeholder="Z1" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable Z2-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">Z2</span>
+</div>
+<input id="z2" type="text" class="form-control" placeholder="Z2" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable P1-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">P1</span>
+</div>
+<input id="p1" type="text" class="form-control" placeholder="P1" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable P2-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">P2</span>
+</div>
+<input id="p2" type="text" class="form-control" placeholder="P2" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable mi-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">mi</span>
+</div>
+<input id="mi" type="text" class="form-control" placeholder="mi" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable ro-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">ro</span>
+</div>
+<input id="ro" type="text" class="form-control" placeholder="ro" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable rugosidade-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">rugosidade</span>
+</div>
+<input id="rug" type="text" class="form-control" placeholder="rugosidade" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<!-- Variable diametro-->
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text" id="basic-addon1">diametro</span>
+</div>
+<input id="d" type="text" class="form-control" placeholder="diametro" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<label id="resposta" for="">Resposta: </label>
+<button id="calcular" type="button" class="btn btn-primary">Calcular</button>
+
+  </div>
+  </div>
+</div>
+    <script src="bernoulli.js" type="text/javascript">
+
+    </script>
+  </body>
+
+
+</html>
